@@ -18,3 +18,8 @@ print(my_string_data[1])
 print(my_string_data[2])
 print(my_string_data[3])
 
+# split도 화이트 스페이스 제거할 수 있다
+# 파라미터를 넣지 않음 
+print(my_string.split())
+# strip는 앞뒤 화이트 스페이스 제거
+# split는 사이사이의 화이트 스페이스 제거
