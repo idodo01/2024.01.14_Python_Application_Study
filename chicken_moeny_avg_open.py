@@ -1,4 +1,4 @@
-with open('data/chicken.txt','r') as f:
+with open('chicken.txt','r') as f:
 
     chicken_list = f.readlines()
     
