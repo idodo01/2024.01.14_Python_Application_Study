@@ -4,7 +4,7 @@ def count_matching_numbers(numbers, winning_numbers):
     i, j = 0, 0
     count_matching = 0
     
-    while i < len(numbers)-1 :
+    while i < len(numbers) :
         while j < len(winning_numbers) :
             if numbers[i] == winning_numbers[j] :
                 count_matching += 1
